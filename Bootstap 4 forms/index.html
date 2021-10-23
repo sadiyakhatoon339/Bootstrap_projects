@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--required meta tags-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Document</title>
+
+    <!-- Bootstrap CSS -->
+    <!--using minified version bcoz minified file load faster in the browser-->
+
+    <!--grabbing bootstrap styling for grid system i.e for rows and columns-->
+   <!-- <link rel="stylesheet"
+     href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap-grid.min.css" >  -->
+ 
+
+     <!--OR-->
+
+    
+  
+
+      <!--grabbing bootstrap styling for grid system i.e for rows and columns-->
+    <link rel="stylesheet" href="css/bootstrap-grid.min.css">   
+
+    <!--grabbing bootstrap styling for the elements of the project-->
+ <link rel="stylesheet" href="css/bootstrap.min.css">    
+
+    <!--adding css to override any of the property provided by the bootstrap-->
+    <link rel="stylesheet" href="style.css">   
+</head>
+
+
+
+<!--bootstrap needs everything in a container else it won't work properly-->
+    <body class="signin-body">
+    <div class="container signin-container">
+        <div class="row">
+            <div class="col"></div>
+            <!--when the size of the screen is small we  want the size to be 12 else 5-->
+            <div class="col-sm-12 col-md-5">
+                <div class="card signin-card"><!--to include card-->
+                    <div class="card-block">
+                      
+                        <img src="devIcon.png" class="img-fluid signin-img">
+                        <img src="dev.png" class="img-fluid signin2-img">
+                        <!--copied from bootstrap 4 website(gruop forms)-->
+                        <form class="signin-form">
+                            <div class="form-group">
+                              <!--we have deleted the labels bcoz we dont need it
+                            changed the type from text to email and same for the password
+                        change the placeholder as well-->
+                              <input type="email" class="form-control" id="emailInput" placeholder="Email">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="formGroupExampleInput2">     </label>
+                              <input type="password" class="form-control" id="PasswordInput" placeholder="Password">
+                            </div>
+
+                            
+                            <button type="button" class="btn signin-btn btn-lg">Sign in</button>
+
+                            <div class="form-check">
+                              <label class="form-check-label" for="gridCheck1"><!--label-->
+                              <input class="form-check-input" type="checkbox" id="gridCheck1"><!--checkbox-->
+                              
+                               Remember me <a href="#">Need Help?</a>
+                              </label>
+                            </div>
+                          </form>
+                    </div>
+                </div>
+
+                <a href="#" class="createnew">Create new account</a>
+            </div>
+            <div class="col"></div>
+        </div>
+    </div>
+
+
+
+    
+
+
+
+
+
+
+
+
+
+<!--jquery,then tether,then bootstrap js-->
+
+
+<!--Injecting jquery-->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity=
+"sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin
+="anonymous"></script>
+
+<!--tether-which allows the accurate positioning of the elements-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" 
+integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" 
+crossorigin="anonymous"></script>
+
+<!--grabbing minified version of javascript-->
+<script src="js/bootstrap.min.js"> </script>
+</body>
+</html>

@@ -1,0 +1,91 @@
+.jumbotron{
+    padding-top: 2rem;
+    text-align:center;
+}
+.sectionLight{
+    background-color:rgb(226, 248, 248) ;
+    padding: 2em;
+}
+
+.sectionDrak{
+    background-color:rgb(192, 243, 243);
+    padding: 2rem;
+}
+.coolStuffWrapper{
+    margin-top:20px;
+
+}
+
+/*any class i.e a child of coolstiffbtn*/
+button.coolstuffbtn{
+background-color: rgb(148, 10, 10);
+color:aliceblue;
+display:block;
+margin: auto;
+
+}
+h5.modal-title{
+    margin:auto;
+}
+.modalFormWrapper{
+    padding:2rem;
+
+}
+
+
+.imgCenter{
+    display:block;
+    margin:auto;
+  
+}
+.imgCenter2{
+    display:block;
+    margin:auto;
+  
+}
+.imgCenter3{
+    display:block;
+    margin:auto;
+  
+}
+
+.mybutton1{
+    display:block;
+    margin:auto;/*cetering our button*/
+    margin-top:15px;
+    margin-bottom:20px;
+    width:100%;/*take 100% width of its element or parent*/
+   
+}
+
+.col-sm-12 .kf1{
+   
+    margin-left: 90px;
+    margin-right: 50px;
+}
+.kf2{
+margin-left: 20px;
+margin-right: 0px;
+
+}
+.section{
+    background-color:black;
+
+}
+.footerImg{
+    padding:10px;
+    
+}
+
+.icon {
+    margin-left:70px;
+    
+}
+
+.socialwrapper{
+    margin: auto;
+}
+
+.mybutton1{
+    text-decoration:underline;
+}

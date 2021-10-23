@@ -1,0 +1,68 @@
+body.signin-body{
+    background-color: #e6f2ff;
+}
+
+.container.signin-container{
+    margin-top:8%;
+   
+  
+    
+}
+
+.card.signin-card{
+    padding: 40px 0px 20px;
+    
+    
+    
+    background-color: #f4f4f4;
+
+    /*rgb is a clor and a works for opacity...opacity works btw 0 and 1*/
+    box-shadow:2px 2px 5px rgba(0,0,0,0.5);
+
+/* to help inherit the box shadow styling in chrome and safari*/
+    -webkit-box-shadow:2px 2px 5px rgba(0,0,0,0.5);
+
+    /* to help inherit the box shadow utilities in mozilla and firefox*/
+    -moz-box-shadow:2px 2px 5px rgba(0,0,0,0.5);;
+}
+
+img.signin-img{
+    padding: 0 1rem 1rem;    /*.2rem****/
+    /*top left,right and bottom*/
+    margin:auto;
+    display:block;
+   
+    
+}
+img.signin2-img{
+    padding: 0 1rem 1rem;
+    max-width: 70%;
+    margin:auto;
+    display:block;
+}
+
+
+
+form.signin-form{
+    
+    max-width: 65%;   /*350px****/
+    margin: auto;/*center our content*/
+}
+
+PasswordInput{
+    margin: 10px;
+}
+
+button.signin-btn{
+    color:white;/*since we remove the primary class therefore we need to specify the clr*/
+    background-color: #d64829;   
+    width:100%;/*100% of the parent*/
+    margin-top: 1.3rem;
+    margin-bottom: 1.3rem;
+}
+a.createnew{
+    font-size:1.2rem;
+    text-align:center;
+    display:block;
+    margin-top:1.2rem ;
+}

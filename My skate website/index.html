@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <!--required meta tags-->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <!--using minified version bcoz minified file load faster in the browser-->
+  <!--
+    <link rel="stylesheet"
+     href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap-grid.min.css" > -->
+
+
+  <!--OR-->
+
+
+  <title>Document</title>
+
+  <!--grabbing bootstrap styling for grid system i.e for rows and columns-->
+  <link rel="stylesheet" href="css/bootstrap-grid.min.css">
+
+  <!--grabbing bootstrap styling for the elements of the project-->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+
+  <!--adding css to override any of the property provided by the bootstrap-->
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+
+
+<body>
+
+
+
+
+  <div class="container-fluid">
+
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">SKATE</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Videos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Photos</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle active" aria-current="page" href="#" id="navbarDropdownMenuLink"
+                role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Swag
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item" href="#">Pant</a></li>
+                <li><a class="dropdown-item" href="#">Shirts</a></li>
+                <li><a class="dropdown-item" href="#">Apparel</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+
+
+
+
+
+    <!--JUMPBOTRON-->
+
+    <div class="sectionLight">
+      <div class="row">
+        <div clas="col-sm-12">
+
+          <!--copy/paste the jumbotron text-->
+
+          <div class="jumbotron jumbotron-fluid">
+
+            <div class="container">
+              <h1 class="display-4">Welcome to my World</h1>
+              <p class="lead">Total Radness since 1987.</p>
+            </div>
+          </div>
+
+
+
+        </div>
+      </div>
+      <div class="row">
+        <div class="col"></div>
+        <div class=" col-sm-12 col-md-6">
+
+          <!--Copy carousel from bootstrap4...it is for the slides -->
+
+          <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <!--we have our images inside it-->
+                <img class="d-block w-100 img-fluid" src="skate1.jpg" alt="First slide">
+                <div class="carousel-caption d-none d-md-block">
+
+                  <h5>Skate and Enjoy</h5>
+                  <p>Skating act as a stress buster</p>
+
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100 img-fluid" src="skate2.jpg" alt="Second slide">
+                <!--d block means that it is giving us the display of box to our img class-->
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>I love to skate</h5>
+                  <p>DO YOU?</p>
+                </div>
+              </div>
+
+              <div class="carousel-item">
+                <img class="d-block w-100 img-fluid" src="skate4.jpg" alt="Fourth slide">
+              </div>
+
+              <div class="carousel-item">
+                <img class="d-block w-100 img-fluid" src="skate6.jpg" alt="Sixth slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100 img-fluid" src="skate7.jpg" alt="Seventh slide">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+              data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="false"></span>
+              <span class="">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+              data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="false"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+
+        </div>
+        <div class="col"></div>
+
+      </div>
+    </div>
+
+
+
+    <!--SECTION 2---67-->
+
+    <div class="sectionDrak">
+      <div class="row">
+
+        <!--skateboard will be n the column width of 1-->
+        <!--offset-md-2= add an empty space of 2 columns to the left of it-->
+        <!--in totat a col width of 3 =col-md-1 +  offset-md-2-->
+        <div class="col-sm-12 col-md-1 offset-md-2">
+          <img class="img-fluid kf2" src="skate5.jpg">
+        </div>
+
+
+
+
+        <!--we are setting a row inside a column-->
+        <div class="col-sm-12 col-md-6">
+          <div class="row">
+            <div class="col-sm-12">
+              <p>The carousel is a slideshow for cycling through a series of content,
+                built with CSS 3D transforms and a bit of JavaScript.
+                It works with a series of images, text, or custom markup.
+                It also includes support for previous/next controls and indicators.</p>
+            </div>
+
+          </div>
+          <div class="row">
+            <div class="col-sm-12 col-md-9">
+              <!--for text-->
+              <p>The carousel is a slideshow for cycling through a series of content,
+                built with CSS 3D transforms and a bit of JavaScript.
+                It works with a series of images, text, or custom markup.
+                It also includes support for previous/next controls and indicators.</p>
+            </div>
+            <div class="col-sm-12 col-md-3">
+              <img class="img-fluid kf1" src="kickflip1.png">
+              <!--img fluid is used for scaling the img according to the size of viewport-->
+
+            </div>
+            <!--for img -->
+
+          </div>
+        </div>
+        <div class="col"></div>
+      </div>
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="coolStuffWrapper">
+            <!--SECTION 3  Modal component....copy and paste the modal first line after class name -->
+            <button type="button" class="btn btn-lg coolstuffbtn" data-bs-toggle="modal"
+              data-bs-target="#coolStuffModal">
+              <!--pop-up will not happen wihtout this-->
+              <!--this will trigger the id of the modal for us-->
+
+              Get cool stuff
+            </button>
+            <!--coolstuffbtn is class we have named of a  btn-->
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+
+
+
+
+    <!--SECTION 4--69--3rd row-->
+
+    <div class="sectionLight">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="row">
+            <div class="col-sm-12 col-lg-4">
+
+              <img class="img-fluid imgCenter" src="skate8.jpg">
+              <!--img center is the class name given by us-->
+              <div class="row">
+                <div class="col-sm-12">
+                  <a href="https://youtu.be/64ZZJZnXJD0" target="_blank">
+                    <button type="button" class="btn btn-danger btn-lg mybutton1"
+                      data-target=".kf-modal-lg">Kickflip</button>
+                  </a>
+                  <!--we have added data target so that we can embed our video in it and so that it can be played 
+                  when it is clicked..kf-modal is the name of the class..goto line no.309 -->
+                </div>
+              </div>
+            </div>
+
+            <div class="col-sm-12 col-lg-4">
+
+              <img class="img-fluid imgCenter2" src="skate3.jpg">
+              <!--img center is the class name given by us-->
+              <div class="row">
+                <div class="col-sm-12">
+                  <a href="https://youtu.be/j8omwdMdNf4" target="_blank">
+                    <button type="button" class="btn btn-danger btn-lg mybutton1">BS Crook</button>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-sm-12 col-lg-4">
+
+              <img class="img-fluid imgCenter3" src="skate6.jpg">
+              <!--img center is the class name given by us-->
+
+
+              <div class="row">
+                <div class="col-sm-12">
+                  <a href="https://youtu.be/ZIqQPGN04f8" target="_blank">
+                    <button type="button" class="btn btn-danger btn-lg mybutton1">360 flip</button>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--SECTION 5....71-->
+
+    <div class="section">
+      <footer class="footer bg-inverse">
+        <div class="container-fluid">
+          <!--container fluid expands to the whole width of the viewposrt-->
+          <div class="row">
+            <div class="col-sm-12 col-lg-3">
+              <img class="img-fluid footerImg " src="kickflip2.png">
+              <!--we use img fluid in order to settle the img according to our col width-->
+
+            </div>
+
+
+            <!--ICONS-->
+            <div class="col-sm-12 col-lg-9 socialwrapper">
+              <a href="https://facebook.com" target="_blank">
+                <img class="icon ic-1" src="https://img.icons8.com/fluent/48/000000/facebook-new.png" />
+              </a>
+
+              <a href="https://google.com" target="_blank">
+
+                <img class="icon ic-2" src="https://img.icons8.com/fluent/48/000000/google-logo.png" />
+              </a>
+              <a href="https://instagram.com" target="_blank">
+                <img class="icon ic-3" src="https://img.icons8.com/fluent/48/000000/instagram-new.png" />
+              </a>
+
+            </div>
+          </div>
+        </div>
+
+
+
+      </footer>
+    </div>
+
+
+
+
+    <!--to get the pop-up when the button is pressed-->
+    <!--CoolstuffModal-->
+    <!-- Modal -->
+    <div class="modal fade" id="coolStuffModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="coolStuffLbael">Get Exclusive Content</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <iv class="container-fluid">
+              <div class="row">
+                <div class="col-sm-12">
+                  <img class="img-fluid" src="kickflip2.png">
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-sm-12">
+                  <div class="modalFormWrapper">
+
+                    <!--copy-paste from bootstrap for simple login using username and delivery address-->
+                    <div class="for-group">
+                      <label for="forNamme" class="form-label">What's your name?</label>
+                      <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Name">
+                    </div>
+                    <div class="form-group">
+                      <label for="exampleFormControlTextarea1" class="form-label">Where should we deliver your cool
+                        stuff?</label>
+                      <textarea class="form-control" id="exampleFormControlTextarea1" rows="2"
+                        placeholder="Address"></textarea>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+            </iv>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--INCOMPLETE-->
+
+  <!-- Section 4......KickFlip Modal--70-->
+
+
+
+
+
+
+
+
+
+
+
+  <!--jquery,then thether,then bootstrap js-->
+
+
+  <!--Injecting jquery-->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+
+  <!--tether-which allows the accurate positioning of the elements-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+
+  <!--grabbing minified version of javascript-->
+  <script src="js/bootstrap.min.js"> </script>
+</body>
+
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.grid.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+
+
+    <div class="container-fluid">
+        <!--Based on 100% width i.e we don't need to define width,but it will turn to 12 i.e the 
+        whole width of the screen when the size is reduced or opened in mobile-->
+      <div class="row">
+          <!--small viewport of size width= 6 for <div class="col-sm-6">Col 2</div>-->
+            <div class="col-6">
+           <!-- <div class="col-6">Col 2</div> -->
+            <div class ="row">
+                <div class="col-6"></div>
+                <div class="col-2"></div>
+                <div class="col-4"></div>
+            </div>
+        </div>
+        <div class="col-6"></div>
+        </div>
+        <div class ="row">
+            <div class="col-sm-6 col-lg-4">Col 3</div>
+            <!--when the size is large it will be of size 4 and when the size is small 
+            then it will be 6-->
+            <div class="col-sm-6 col-lg-4">Col 4</div>
+            <div class="col-sm-12 col-lg-4">Col 5</div><!--we can also use md,xl,sm -->
+            </div>
+
+        
+        
+    </div>
+        
+   <!-- <button type="button" class="btn btn-primary">Primary</button> -->
+    
+    <script src="js/bootstrap.min.js"> </script>
+</body>
+</html>

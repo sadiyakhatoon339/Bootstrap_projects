@@ -1,0 +1,16 @@
+.container-fluid{
+    background-color: blueviolet;
+    height:5rem;
+}
+
+.row{
+    background-color: aquamarine;
+    height:4.7rem;
+}
+
+[class*="col"] /*all the elements inside column*/
+{
+    background-color: rgb(248, 153, 10);
+    height:4.2rem;
+    border:2px solid rgba(0,0,0,0.3);
+}
